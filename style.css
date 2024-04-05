@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-color: hsl(222, 26%, 31%);
+    font-family: "League Spartan", sans-serif;
+}
+.content{
+    width: 30%;
+    height: 600px;
+    margin: auto;
+    margin-top: 150px;
+    transition: .3s all ease-in;
+}
+.top{
+    background-color: hsl(223, 31%, 20%);
+    width: 80%;
+    height: 100px;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 8px;
+
+}
+input{
+    width: 100%;
+    height: 80px;
+    text-align: right;
+    outline: none;
+    color: white;
+    font-weight: 600;
+    border: 0;
+    font-size: 32px;
+    padding: 12px;
+    background-color: transparent;
+}
+.bottom{
+    background-color: hsl(223, 31%, 20%);
+    width: 80%;
+    height: 310px;
+    padding: 10px;
+    border-radius: 8px;
+}
+.btn1 button{
+    width: 70px;
+    font-size: 18px;
+    height: 45px;
+    border-radius: 9px;
+    outline: none;
+    border: 0;
+    cursor: pointer;
+    margin: 0 5px;
+    box-shadow: rgba(163, 163, 163, 0.616) 0px 4px 6px -1px, rgba(172, 172, 172, 0.459) 0px 2px 4px -1px;
+}
+.btn1 {
+    text-align: center;
+    margin: 10px 12px;
+    font-size: 20px;
+}
+.btn1:last-child button{
+    width: 151px;
+    font-size: 18px;
+    height: 45px;
+    margin-left: 10px;
+
+   
+}
+.content .sbutton{
+    background-color: hsl(6, 63%, 50%);
+}
+.btn1:last-child{
+    text-align: left;
+}
+.content .btn1:first-child button:last-child,.content .btn1:last-child button:first-child{
+    background-color: hsl(225, 21%, 49%);
+    color: white;
+}
+.content .btn1:last-child button:last-child{
+    background-color: hsl(6, 63%, 50%);
+    color: white;
+    box-shadow:0px 4px 6px -1px  hsl(6, 70%, 34%);
+}
+.buttons{
+    width:80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    color: white;
+    text-transform: uppercase;
+    padding-left: 10px;
+}
+.theme{
+    display: flex;
+    margin-right: 20px;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+   
+}
+.cont{
+    background-color: hsl(225, 21%, 49%);
+    border-radius: 20px;
+    width: 30px;
+}
+
+.theme p{
+    font-size: 13px;
+    margin-right: 10px;
+}
+.button{
+    width: 50px;
+    height: 20px;
+    border-radius: 12px;
+    background-color:  hsl(223, 31%, 20%);
+    padding: 4px 3px;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+}
+.button .sbutton{
+    display: block;
+    width: 13px;
+    border-radius: 50%;
+    height: 13px;
+    background-color: hsl(6, 63%, 50%);
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    position: absolute;
+   left: 4px;
+   padding: 0px 2px;
+   
+    
+}
+.button button{
+    cursor: pointer;
+}
+.numbers{
+    position: absolute;
+    top: -18px;
+    left: 53px;
+    font-size: 14px;
+    color: white;
+}
+.numbers span{
+    margin-right: 10px;
+    font-weight: 500;
+}
+.hidden{
+    opacity: 0;
+}
+
+
+/*THEME 2**/
+
+.theme2 .top{
+    background-color: white;
+}
+.theme2 input{
+    color: black;
+}
+.theme2  .bottom,.theme2 .button{
+    background-color: hsl(0, 5%, 81%);
+}
+.theme2 .btn1 button{
+background-color:hsl(45, 7%, 89%);
+box-shadow: 0px 3px 2px hsl(35, 11%, 61%);
+}
+.theme2 .btn1:first-child button:last-child,.theme2 .btn1:last-child button:first-child{
+    background-color: hsl(185, 42%, 37%);
+    color: white;
+    box-shadow: 0px 3px 2px hsl(185, 58%, 25%);
+}
+.theme2 .btn1:last-child button:last-child{
+    background-color: hsl(25, 98%, 40%);
+    color: white;
+    box-shadow: 0px 3px 2px  hsl(25, 99%, 27%);
+}
+
+.theme2 .buttons,.theme2 .numbers{
+    color:hsl(60, 10%, 19%)
+}
+.theme2 .sbutton{
+    background-color: hsl(6, 63%, 50%);
+}
+/*THEME 3**/
+
+.theme3 .buttons,.theme3 .numbers{
+    color:hsl(52, 100%, 62%)
+}
+.theme3 .top{
+    background-color: hsl(268, 71%, 12%);
+}
+
+.theme3 input{
+    color: white;
+}
+.theme3  .bottom,.theme3 .button{
+    background-color: hsl(268, 71%, 12%);
+}
+.theme3 .btn1 button{
+background-color:hsl(281, 89%, 26%);
+box-shadow: 0px 3px 2px hsl(285, 91%, 52%);
+color: hsl(52, 100%, 62%);
+}
+.theme3 .btn1:first-child button:last-child,.theme3 .btn1:last-child button:first-child{
+    background-color: hsl(268, 47%, 21%);
+    color: hsl(0, 0%, 100%);
+    box-shadow: 0px 3px 2px hsl(290, 70%, 36%);
+}
+.theme3 .btn1:last-child button:last-child{
+    background-color: hsl(176, 100%, 44%);
+
+    box-shadow: 0px 3px 2px  hsl(177, 92%, 70%);
+    color:  hsl(198, 20%, 13%);
+}
+
+.theme3 .sbutton{
+    background-color: hsl(176, 100%, 44%);
+
+}
+@media (max-width:375px){
+   
+        .content{
+            width: 90%;
+            height: 600px;
+            margin: auto;
+            margin-top: 70px;
+            transition: .3s all ease-in;
+        }
+        .top,input,.bottom,.buttons{
+            width: 100%;
+            font-size: 20px;
+        
+        }
+        .top,.buttons{
+            margin-bottom: 40px;
+        }
+        .bottom{
+            height: 450px;
+        }
+        .btn1 button{
+            width: 58px;
+            height: 60px;
+            font-size: 22px;
+
+        }
+        .btn1{
+            margin-bottom: 25px;
+        }
+        .btn1:last-child button{
+            width: 125px;
+            font-size: 18px;
+            height: 60px;
+            margin-left: 10px;
+        
+           
+        }
+}
